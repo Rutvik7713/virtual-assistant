@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 from __future__ import print_function
 from googleapiclient.discovery import build
 import speech_recognition as sr
@@ -28,9 +22,6 @@ from tkinter import *
 from tkinter import simpledialog
 import wikipedia
 from time import ctime
-
-
-# In[ ]:
 
 
 SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
@@ -228,8 +219,6 @@ def get_my_result():
     driver.find_element_by_id("btnSearch").click()    
 
 
-# In[ ]:
-
 
 import tkinter as tk
 chrome_path = r'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe'
@@ -363,8 +352,6 @@ def respond(voice_data):
         if a!=1:
             vision_speak('Functionality not available')
 
-
-# In[ ]:
 
 
 SERVICE = authenticate_google()
